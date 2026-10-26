@@ -1,0 +1,180 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: none;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.95),
+        rgba(0, 0, 0, 0.8)
+    ), url("Images/CatchingFire.webp");
+
+    background-attachment: fixed;
+    
+
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    color : white;
+    text-shadow: 0 0 4px white;
+}
+
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+input {
+
+    border : 1px solid #fcfcfc;
+    border-radius: 5px;
+    background-color: #111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+    box-shadow: 0 0 10px white;
+}
+
+.menu {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 10px
+}
+.customize {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 10px
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 0 0 10px #F2B84B;
+    text-align: center;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color : white;
+    text-shadow: 0 0 4px white;;
+}
+
+img {
+    width : 20%;
+    height: auto;
+    filter: drop-shadow(0 0 5px #F2b84b)
+}
+
+.gold-title {
+    background: linear-gradient(
+        90deg, #F2B84B, #FFF0BC, #c78a22
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent
+}
+
+.glow {
+    color: #F2B84B;
+    text-shadow: 0 0 12px cyan;
+}
+h2 {
+    font-size: 40px;
+}
+.description {
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+#gameScreen {
+    display : none
+}
+
+canvas {
+    display: block;
+}
+
+button {
+    margin-top: 50px;
+    border : 1px solid #F2B84B;
+    border-radius: 15px;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #c78a22;
+    box-shadow: 0 0 10px rgb(209, 231, 82);
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: #805711;
+}
+
+.player-settings {
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.player-settings h3 {
+    margin-top: 0;
+}
+
+.custom-stats {
+    margin-top: 12px;
+    padding: 10px;
+    border-left: 3px solid #d4af37;
+}
+
+.stat-setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 8px 0;
+}
+
+.stat-setting input {
+    color: white;
+    width: 80px;
+}
+
+.player-settings select,
+.player-settings input {
+    box-sizing: border-box;
+}
+
+label {
+    color : white;
+}
+
+h3 {
+    color : white;
+}
